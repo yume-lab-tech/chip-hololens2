@@ -304,6 +304,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &213688264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4109031660377849179, guid: d4415894ce5e554429669400b7a78951,
+    type: 3}
+  m_PrefabInstance: {fileID: 4109031660435743379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,166 +521,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &954072962
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4533479808906774270, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_Name
-      value: MoneyHoleButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.40000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.17364825
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9848078
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6699999
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774273, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.6699999
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774276, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774276, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1189155264}
-    - target: {fileID: 4533479808906774276, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: generateMoneyHole
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808247404462, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808247404460, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
-        type: 2}
-    - target: {fileID: 4533479808247404460, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808247404460, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808247404460, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_text
-      value: MoneyHoleButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808247404460, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808247404460, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808247404460, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808247404460, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808247404460, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774277, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: selectAction.id
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774277, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: selectAction.description
-      value: None
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533479808906774277, guid: 231a4253eb1a74d4e87393459447cc95,
-        type: 3}
-      propertyPath: selectAction.axisConstraint
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 231a4253eb1a74d4e87393459447cc95, type: 3}
 --- !u!1 &1034583521
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,26 +824,97 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 231a4253eb1a74d4e87393459447cc95, type: 3}
---- !u!1 &1189155263 stripped
+--- !u!1 &1319623890
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 4533479808906774270, guid: 231a4253eb1a74d4e87393459447cc95,
-    type: 3}
-  m_PrefabInstance: {fileID: 954072962}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1189155264
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1319623892}
+  - component: {fileID: 1319623891}
+  - component: {fileID: 1319623893}
+  m_Layer: 0
+  m_Name: CustomGlobalHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1319623891
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189155263}
+  m_GameObject: {fileID: 1319623890}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38479b63d9699b145a0ce6ee72203b99, type: 3}
+  m_Script: {fileID: 11500000, guid: 11e1ff62b9d97784cadc6765e20c1111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObject: {fileID: 4109031660377849179, guid: d4415894ce5e554429669400b7a78951,
-    type: 3}
+  holeMoneyObject: {fileID: 213688264}
+--- !u!4 &1319623892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319623890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1319623893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319623890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410eac1ae94b4d4492a09cc368e152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enabled: 1
+  States: {fileID: 11400000, guid: 5eac1712038236e4b8ffdb3893804fe1, type: 2}
+  InputAction:
+    id: 0
+    description: 
+    axisConstraint: 0
+  InputActionId: 0
+  IsGlobal: 1
+  Dimensions: 0
+  CanSelect: 1
+  CanDeselect: 1
+  VoiceCommand: select
+  RequiresFocus: 1
+  Profiles:
+  - Target: {fileID: 0}
+    Themes: []
+    HadDefaultTheme: 1
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1319623891}
+        m_MethodName: GenerateMoneyHole
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Events: []
 --- !u!1 &1473645506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1039,7 +956,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1720930292 stripped
 GameObject:
@@ -1201,6 +1118,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3118974729731210537, guid: c3db95e0bd2c0e14184a19d93d9f7ee0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3118974729731210539, guid: c3db95e0bd2c0e14184a19d93d9f7ee0,
         type: 3}
       propertyPath: m_Enabled
@@ -1295,6 +1217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MoneyHole
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109031660377849179, guid: d4415894ce5e554429669400b7a78951,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4109031660377849182, guid: d4415894ce5e554429669400b7a78951,
         type: 3}
