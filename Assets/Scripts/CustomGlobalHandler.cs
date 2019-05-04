@@ -3,26 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using Microsoft.MixedReality.Toolkit.Input;
 
-public class CustomGlobalHandler : MonoBehaviour, IMixedRealityInputHandler
+public class CustomGlobalHandler : InputSystemGlobalListener
 {
-    public void OnInputDown(InputEventData eventData)
+    private void OnEnable()
     {
-        Debug.Log("Hello input down!!");
+        Debug.Log("Enabled");
     }
 
-    public void OnInputUp(InputEventData eventData)
+    private void OnDisable()
     {
-        Debug.Log("Hello input up!!");
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("Disabled");
     }
 }
